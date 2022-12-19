@@ -7,7 +7,7 @@ const Clients = () => (
       {clients.map((client) => (
         <div
           key={client.id}
-          className={`flex-1 sm:min-w-[192px] min-w-[120px] ${styles.flexCenter}`}
+          className={`flex-1 md:min-w-[192px] min-w-[250px] my-5 md:my-0 ${styles.flexCenter}`}
         >
           <img
             src={client.logo}

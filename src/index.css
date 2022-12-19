@@ -107,7 +107,7 @@
   }
 }
 
-.feature-card:hover {
+.feature-card {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
 }
@@ -133,4 +133,23 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.custom-center {
+  margin: 2rem auto;
+}
+
+@media (min-width: 1060px) {
+  .custom-center {
+    margin: 2rem 0;
+  }
+}
+.custom-center-footer {
+  margin: 20px auto;
+}
+
+@media (min-width: 1060px) {
+  .custom-center-footer {
+    margin: 0;
+  }
 }

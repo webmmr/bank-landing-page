@@ -13,6 +13,7 @@ const FeatureCard = ({ icon, title, content, i }) => (
     >
       <img src={icon} alt="icon" className="w-[50%] h-50% object-contain" />
     </div>
+
     <div className="flex-1 flex flex-col ml-3">
       <h4 className="font-poppins text-[18px] leading-[23px] text-white font-semibold mb-1">
         {title}
@@ -31,7 +32,7 @@ const Business = () => (
         You do the business, <br className="sm:block hidden" /> we'll handle the
         money
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px]`}>
+      <p className={`${styles.paragraph} md:max-w-[470px]`}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
         provident unde, tempora magnam temporibus maxime eveniet odit optio!
         Nobis, amet!

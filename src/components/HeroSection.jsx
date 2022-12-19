@@ -15,24 +15,32 @@ const HeroSection = () => (
           Account
         </p>
       </div>
-      <div className="flex flex-row justify-between items-center w-full">
+      <div className="flex flex-col ss:flex-row ss:justify-between text-center ss:text-left items-center w-full">
         <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
           The Next
           <br className="sm:block hidden" />{" "}
           <span className="text-gradient">Generation </span>
         </h1>
-        <div className="ss:flex md:mr-4 mr-0 text-white">
+        <h1 className="font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full ss:hidden block">
+          Payment Method
+        </h1>
+        <div className="ss:flex ss:block hidden md:mr-4 mr-0 text-white">
           <GetStarted />
         </div>
       </div>
-      <h1 className="font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
+      <h1 className="font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full ss:block hidden">
         Payment Method
       </h1>
-      <p className={`${styles.paragraph} max-w-[470x] mt-5`}>
+      <p
+        className={`${styles.paragraph} max-w-[470x] mt-5 text-center ss:text-left`}
+      >
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
         commodi doloremque sequi nam minima. Officiis architecto sit fugiat ad
         iusto?
       </p>
+      <div className="ss:flex custom-center justify-center mt-8 ss:hidden block md:mr-4 mr-0 text-white">
+        <GetStarted />
+      </div>
     </div>
     <div className={`flex flex-1 ${styles.flexCenter} md:my-0 my-10 relative`}>
       <img

@@ -9,7 +9,7 @@ const billing = () => (
         Find a better card deal <br className="sm:block hidden" /> in few easy
         steps
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px]`}>
+      <p className={`${styles.paragraph} md:max-w-[470px]`}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
         provident unde, tempora magnam temporibus maxime eveniet odit optio!
         Nobis, amet!

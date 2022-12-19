@@ -17,12 +17,12 @@ const billing = () => (
         Easily control your <br className="sm:block hidden" /> billing &
         invoicing
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px]`}>
+      <p className={`${styles.paragraph} md:max-w-[470px]`}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
         provident unde, tempora magnam temporibus maxime eveniet odit optio!
         Nobis, amet!
       </p>
-      <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
+      <div className="flex flex-row flex-wrap sm:mt-10 mt-6 w-full justify-center md:justify-start">
         <img
           src={apple}
           alt="Apple Store"

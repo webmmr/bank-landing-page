@@ -2,7 +2,7 @@ import React from "react";
 
 const Button = ({ styles }) => (
   <button
-    className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-18px text-primary outline-none rounded-[20px] ${styles}`}
+    className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-18px text-primary outline-none rounded-[20px] ${styles} custom-center `}
   >
     Get Started
   </button>
